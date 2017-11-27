@@ -1,4 +1,13 @@
 /* 
+
+High level positive and negative scenarios with clear test goals and expected results
+
+Prioritize each test case as follows:
+    P0 - most important/happy path test cases 
+    P1 - the most important negative test cases for the feature
+    P2 - other less important negative or corner test cases for the future
+
+
 City Search Box
     -City search box element exists
     -Users can type in input box
@@ -6,19 +15,18 @@ City Search Box
     -Users can fully type city, stare & select enter
     -Users can opt to select Google's autocomplete
     -Enter captures input
-    -No errors display when typing 
+    -No errors display when typing (Negative)
 
 Cities list
-* States are Listed
-* States in alphabetical order
-* Cities are accurately listed under State 
-* Cities are accurately listed under Province
-* Cities in alphabetical order
-* Clicking on city routes user to lyft.com/cities/cityName || Area (Ex. /greater-toronto-area-on for Ajax
-* tab displays correct "cities-city || region"
+    - States are Listed
+    - States in alphabetical order
+    - Cities are accurately listed under State 
+    - Cities are accurately listed under Province
+    - Cities in alphabetical order
+    - Clicking on city routes user to lyft.com/cities/cityName || Area (Ex. /greater-toronto-area-on for Ajax
+    - tab displays correct "cities-city || region"
 
 City details page (Each city’s details)
-
     -City Image displays
     -h1 el displays city || region name 
     -signup now button exists
@@ -37,12 +45,18 @@ The estimate ride cost form on the details page
     -sign up and ride button displays when 'Get Estimate' button is clicked
     -Signup & ride leads user to authentication
 
-        (Negatives) Error when fields are left blank
-        (Negative) cannot proceed when fields are empty
+////////////////////////////////////////////////////////////////////////////////
 
+City Search Box
+        -(Negative) No errors display when typing City, State
 
+Cities list
 
+City details page (Each city’s details)
 
+The estimate ride cost form on the details page
+        -(Negatives) Error when fields are left blank
+        -(Negative) cannot proceed when fields are empty
 
 
 */
