@@ -3,8 +3,9 @@
 High level positive and negative scenarios with clear test goals and expected results
 
 P0 - User Acceptance(Smoke)
-If any of these tests fail, the product should NOT release w/o proper communication with DEV
-ALL these tests must be executed each for each release candidate. 
+If any of these tests fail, the product should NOT release w/o proper documentation
+of a software defect and communication with DEV
+ALL these tests should be executed each for each release candidate. 
 
 I. Page launces Successfully
     -https://www.lyft.com/cities successfully renders /cities page
@@ -48,10 +49,12 @@ V.  The estimate ride cost form on the details page
 
 ////////////////////////////////////////////////////////////////////////////////
 
-P1 - the most important negative test cases for the future
+P1 - The most important negative test cases for the future
 
 I.  City Search Box
         -(Negative) No errors display when typing City, State
+        -Gracefully handles special characters in City Search Box
+        -Gracefully handles numbers in City Search Box
 
 II. Cities list
 
@@ -64,6 +67,19 @@ IV. The estimate ride cost form on the details page
 ////////////////////////////////////////////////////////////////////////////////
 
 P2 - the most important negative test cases for the future
+
+I.  City Search Box
+        -City Search Box displays fits phone viewport 
+        -
+        -
+
+II. Cities list
+
+III.City details page (Each city’s details)
+  
+IV. The estimate ride cost form on the details page
+        -
+        -
 
 */
 
