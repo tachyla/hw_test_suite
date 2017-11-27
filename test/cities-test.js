@@ -31,7 +31,7 @@ III. Cities list
 IV. City details page (Each city’s details)
     -City Image displays
     -h1 el displays city || region name 
-    -signup now button exists
+    -Sign Up Now button exists
     -clicking signup now lead user to authentication
     -description is for selected city||region
     -region of coverate highlighted on map is accurate
@@ -69,11 +69,23 @@ IV. The estimate ride cost form on the details page
 P2 - the most important negative test cases for the future
 
 I.  City Search Box
-        -City Search Box displays fits phone viewport 
-        -
-        -
-
+        -City Search Box fits ALL phone viewports
+            -iPhone 5c
+            -iPhone 8+
+            -Nexus
+            -Samsung Galaxy 
+        -City Search Box displays porportionately sized in Landscape & Portrait views
+        
+    
 II. Cities list
+        -Landscape and Portrait views clearly display Cities content
+        -Translation / spelling is accurate when phone's language is modified
+        -Translations maintain accurate meaning when phone's language is modified
+            -Spanish
+            -German
+            -Dutch
+            -French
+            -English
 
 III.City details page (Each city’s details)
   
